@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/main.css" />
+  <link rel="stylesheet" href="../CSS/index.css" />
+  <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="../HTML/index.html">
+          <img src="../assets/logo.png" alt="logoja" />
+        </a>
+      </div>
+
+      <!--this is burger menu-->
+      <label for="burger-menu">
+        <span class="span"></span>
+        <span class="span"></span>
+        <span class="span"></span>
+      </label>
+
+      <input type="checkbox" name="burger-menu" id="burger-menu" />
+      <ul>
+        <li><a href="#sec-1" class="active">Home</a></li>
+        <li><a href="#sec-2">About</a></li>
+        <li><a href="#sec-3">Qualification</a></li>
+        <li><a href="#sec-4">Services</a></li>
+        <li><a href="#sec-5">Projects</a></li>
+        <li><a href="#sec-6">Contact</a></li>
+        <a href="../assets/CV-Anglisht.pdf" download="Resume.pdf">
+          <button className="btn-CV">Get Resume</button>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <!-- NAVBAR ENDS -->
+
+  <!-- SOCIAL-MEDIA LEFT  -->
+  <div class="social-media">
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/blend.s.11/" target="_blank"><i class="fa fa-facebook-square"
+            aria-hidden="true"></i></a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/blend.statovci/" target="_blank"><i class="fa fa-instagram"
+            aria-hidden="true"></i></a>
+      </li>
+
+      <li>
+        <a href="https://wa.me/+38349674727" target="_blank">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/blend-statovci-b82590211?trk=public_profile_browsemap" target="_blank">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- SOCIAL-MEDIA LEFT ENDS -->
+
+  <!-- ARROW -->
+  <div class="arrow-content">
+    <a href="#sec-1">
+      <button class="arrow-btn">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </button>
+    </a>
+  </div>
+  <!-- ARROW ENDS -->
+
+  <!-- FIRST BACKGROUND-->
+  <section id="sec-1" class="page-section">
+    <div class="first-box">
+      <div class="information">
+        <p>Hello I'm</p>
+        <h1>
+          Blend Statovci, I'm <span>Frontend Developer</span> and Web Designer
+        </h1>
+        <p>This is me and my journey to the IT world</p>
+        <a href="#sec-6">
+          <button>Contact me&#10140;</button>
+        </a>
+      </div>
+
+      <div class="background-image">
+        <img src="../assets/bg.png" alt="" class="bg-img" />
+      </div>
+    </div>
+  </section>
+  <!--  FIRST BACKGROUND ENDS -->
+
+  <!--  ABOUT ME -->
+  <section id="sec-2" class="page-section">
+    <div class="about">
+      <div class="about-img">
+        <img src="../assets/bg2.png" alt="" />
+      </div>
+      <div class="about-information">
+        <span>My Intro</span>
+        <h1>About Me</h1>
+        <p>
+          I love computers. I love everything about them. I spend 3-5 hours a
+          day in front of a computer screen as I am coding, debugging, or
+          discussing coding practices and methods with other programmers. I
+          also practice Web Design. Strong analysis, evaluation, critical
+          thinking, judgment abilities and leadership with developed
+          decision-making skills.
+        </p>
+
+        <div class="personal-information">
+          <p>
+            <i class="fa fa-user-o" aria-hidden="true"></i> <b>Name:</b> Blend
+            Statovci
+          </p>
+          <p>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <b>Phone:</b> +(383)49674727
+          </p>
+          <p>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <b>Email:</b> blendstatovci2@gmail.com
+          </p>
+        </div>
+
+        <div class="myInterests">
+          <h3>My Interests:</h3>
+          <div class="myInterests-details">
+            <p><i class="fa fa-headphones" aria-hidden="true"></i> Music</p>
+            <p><i class="fa fa-plane" aria-hidden="true"></i> Travel</p>
+            <p><i class="fa fa-film" aria-hidden="true"></i> Movie</p>
+            <p><i class="fa fa-camera" aria-hidden="true"></i> Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="expertise-area">
+      <span>Why chosse me</span>
+      <h1>My Expertise Area</h1>
+      <div class="skills">
+        <div class="technichal-skills">
+          <h3>Technical Skills</h3>
+          <!--Start Animated Progress Bar-->
+          <div class="animated-progress">
+            <span data-progress="90"></span>
+            <p>Html - 90%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="80"></span>
+            <p>css - 80%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="50"></span>
+            <p>javascript - 50%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="40"></span>
+            <p>.NET - 40%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="35"></span>
+            <p>java - 35%</p>
+          </div>
+        </div>
+
+        <div class="soft-skills">
+          <h3>Profesional Skills</h3>
+          <!--Start Animated Progress Bar-->
+          <div class="animated-progress">
+            <span data-progress="95"></span>
+            <p>Communication - 95%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="90"></span>
+            <p>Individual Work - 90%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="90"></span>
+            <p>team work - 90%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="75"></span>
+            <p>project menagment - 75%</p>
+          </div>
+          <div class="animated-progress">
+            <span data-progress="70"></span>
+            <p>creativity - 70%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Animated Progress Bar-->
+  <!--  ABOUT ME ENDS -->
+
+  <!--  QUALIFICATION-->
+  <section id="sec-3" class="page-section">
+    <div class="qualification">
+      <span>My Qualification</span>
+      <h1>My Awesome Journey</h1>
+
+      <div class="qualification-information">
+        <div class="education">
+          <h2>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
+          </h2>
+          <div class="education-information">
+            <div class="box">
+              <span class="circle"></span>
+              <span class="line"></span>
+              <h1>Software Engineer</h1>
+              <h2>Computer Science</h2>
+              <p>
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2020-Present
+              </p>
+            </div>
+            <div class="box">
+              <span class="circle"></span>
+              <span class="line"></span>
+              <h1>Economics</h1>
+              <h2>High School</h2>
+              <p>
+                <i class="fa fa-calendar" aria-hidden="true"></i> 2017-2020
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience">
+          <h2>
+            <i class="fa fa-briefcase" aria-hidden="true"></i> Experience
+          </h2>
+          <div class="experience-information">
+            <div class="box">
+              <span class="circle"></span>
+              <span class="line"></span>
+              <h1>Frontend Development </h1>
+              <h2>Training at Cacttus Education</h2>
+              <p>
+                <i class="fa fa-calendar" aria-hidden="true"></i> 17/08/2022 - Present
+              </p>
+            </div>
+            <div class="box">
+              <span class="circle"></span>
+              <span class="line"></span>
+              <h1>Bootstrap Tutorial </h1>
+              <h2>Kosovo 2.0</h2>
+              <p>
+                <i class="fa fa-calendar" aria-hidden="true"></i>23/05/2022 - 28/05/2022
+              </p>
+            </div>
+            <div class="box">
+              <span class="circle"></span>
+              <span class="line"></span>
+              <h1>Full Stack Development </h1>
+              <h2>Training at BONEVET Prishtina</h2>
+              <p>
+                <i class="fa fa-calendar" aria-hidden="true"></i>15/11/2021 - 07/05/2022
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  QUALIFICATION ENDS -->
+
+  <!-- SERVICE  -->
+  <section id="sec-4" class="page-section">
+    <div class="services">
+      <span>Services</span>
+      <h1>What I Offer</h1>
+      <div class="main-cards">
+
+        <div class="card">
+          <div class="icon">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h4>Web Development</h4>
+          <p>I am responsible for the site's technical aspects, such as its performance and capacity, which are measures
+            of a website's speed and how much traffic the site can handle.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          </div>
+          <h4>Web Design</h4>
+          <p>
+            I give you the power to create a beautiful website using videos, images, animation and using different tools for interactive elements to make your site easy to use. </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+          </div>
+          <h4>consultation</h4>
+          <p>Development of ideas and consultation is my priority. I offer advice and expertise to client organisations
+            to help them improve their website performance. </p>
+        </div>
+
+      </div>
+  </section>
+  <!-- SERVICE ENDS -->
+
+  <!-- PROJECTS  -->
+  <section id="sec-5" class="page-section">
+    <div class="projects">
+      <span>My Projects</span>
+      <h1>Recent Works</h1>
+      <div class="main-boxes">
+
+        <div class="box">
+          <img src="../assets/project1.JPG" alt="">
+          <div class="text-overlay">
+            <div class="text-overlay-icon"> <a href="https://auditplus.blends.repl.co/" target="_blank">
+                <i class="fa fa-link" aria-hidden="true"></i></a></div>
+            <p>Audit Plus</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="../assets/project2.JPG" alt="">
+          <div class="text-overlay">
+            <div class="text-overlay-icon"> <a href="https://adventure.blends.repl.co/" target="_blank">
+              <i class="fa fa-link" aria-hidden="true"></i></a></div>
+            <p>Cacttus Education Project</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="../assets/project3.JPG" alt="">
+          <div class="text-overlay">
+            <div class="text-overlay-icon"> <a href="https://projekti.blends.repl.co/" target="_blank">
+              <i class="fa fa-link" aria-hidden="true"></i></a></div>
+            <p>Bonevet Prishtina Project</p>
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+  <!-- PROJECTS ENDS -->
+  
+  <!-- CONTACT  is done with EMAILJS to send email-->
+  <section id="sec-6" class="page-section">
+    <div class="contact">
+      <span>Contact Me</span>
+      <h1>Get in Touch</h1>
+
+      <div class="contact-form">
+        <form action="" id="contact-form">
+          <input type="text" name="user_name" placeholder="Full Name" id="contact-name">
+
+          <input type="email" name="user_email"  placeholder="Email" id="contact-email">
+
+          <input type="text"  name="user_subject" placeholder="Subject" id="contact-subject">
+          
+          <textarea name="user_message"  placeholder="Message" id="contact-message"></textarea>
+          
+          <p class="message-show" id="message-show"></p>
+          
+          <input type="submit" value="Send Message" >
+        </form>
+
+        <div class="contact-information">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="box-text">
+            <h4>Call Me</h4>
+            <p>049674727</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            </div>
+            <div class="box-text">
+            <h4>E-mail</h4>
+            <p>blendstatovci2@gmail.com</p>
+          </div>
+          </div>
+
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-pin" aria-hidden="true"></i>
+            </div>
+            <div class="box-text">
+            <h4>Address</h4>
+            <p>Podujevë, Kosovo</p>
+          </div>
+          </div>
+
+        </div>
+      </div>
+</div>    
+  </section> 
+  <!-- CONTACT ENDS -->
+
+
+
+  <!-- FOOTER ENDS -->
+  <footer>
+    <div class="footer-logo">
+      <img src="../assets/logo-footer.png" alt="">
+      <p>I design and build your website using many different skills and tools. Let's collaborate together </p>
+    </div>
+
+    <div class="footer-social-media">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/blend.s.11/" target="_blank"><i class="fa fa-facebook-square"
+              aria-hidden="true"></i></a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/blend.statovci/" target="_blank"><i class="fa fa-instagram"
+              aria-hidden="true"></i></a>
+        </li>
+  
+        <li>
+          <a href="https://wa.me/+38349674727" target="_blank">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/blend-statovci-b82590211?trk=public_profile_browsemap" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-copyrights">
+      Copyrights &copy;2022  All rights reserved
+    </div>
+  </footer>
+  <!-- FOOTER  -->
+
+
+
+     <!-- LINK OF EMAILJS WHICH SEND US EMAIL FROM CONTACT FORM  -->
+     <script
+     type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+   ></script>
+  <!-- JS FILE  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../JS/changing-nav-class.js"></script>
+  <script src="../JS/spinner.js"></script>
+  <script src="../JS/arrow-btn.js"></script>
+  <script src="../JS/Progress-bar.js"></script>
+  <script src="../JS/sendEmail.js"></script>
+  <script></script>
+</body>
+
+</html>

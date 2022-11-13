@@ -1,0 +1,950 @@
+/* SOCIAL MEDIA ON THE LEFT  */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 5555;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media ul li {
+    margin: 15px;
+    list-style: none;
+}
+
+.social-media ul li a {
+    font-size: 25px;
+    color: var(--first-color);
+}
+
+.social-media ul li a:hover {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: var(--third-color);
+    outline: none;
+    transition: .5s;
+}
+
+/* SOCIAL MEDIA ON THE LEFT ENDS */
+
+
+/*FIRST BACKGROUND*/
+.first-box {
+    position: relative;
+    background: radial-gradient(rgb(238, 232, 232), #fff);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.background-image {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 20px;
+    animation: image 2s forwards;
+}
+
+.background-image .bg-img {
+    height: auto;
+    width: auto;
+    margin-top: 70px;
+}
+
+@keyframes image {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+.information {
+    position: relative;
+    width: 450px;
+    margin-left: 50px;
+    animation: text 2s forwards;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+
+}
+
+@keyframes text {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+.information span {
+    color: var(--third-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.information h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000;
+}
+
+
+.information p {
+    margin-top: 10px;
+    color: #444;
+}
+
+
+.information button {
+    text-transform: uppercase;
+    width: 180px;
+    height: 50px;
+    background-color: var(--third-color);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.information button:hover {
+    border: 1px solid var(--third-color);
+    color: var(--third-color);
+    background-color: transparent;
+    transition: .5s;
+    outline: none;
+}
+
+.information a:hover {
+    border: none;
+}
+
+/*FIRST BACKGROUND ENDS*/
+
+/* ABOUT  */
+.about {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img {
+    margin: 0;
+}
+
+.about>.about-information {
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #444;
+    margin: 50px;
+}
+
+
+.about-information span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.about-information>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.about-information>p {
+    margin: 10px 0;
+
+}
+
+.personal-information {
+    margin-top: 20px;
+}
+
+.personal-information p {
+    margin-top: 10px;
+    color: #111;
+}
+
+.personal-information p b {
+    color: var(--second-color)
+}
+
+.personal-information p i {
+    color: var(--first-color);
+    margin-right: 10px;
+}
+
+.myInterests {
+    margin: 20px;
+    width: 94%;
+
+}
+
+.myInterests>h3 {
+    font-family: papyrus;
+    color: var(--third-color);
+}
+
+.myInterests-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.myInterests-details p {
+    color: #222;
+}
+
+.myInterests-details p i {
+    color: var(--first-color);
+}
+
+/* ABOUT US ENDS  */
+
+/* SKILLS */
+.expertise-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: radial-gradient(rgb(238, 232, 232), #fff);
+}
+
+.expertise-area>span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.expertise-area>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.expertise-area>.skills {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.skills .technichal-skills,
+.skills .soft-skills {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.skills .technichal-skills h3,
+.skills .soft-skills h3 {
+    font-family: papyrus;
+    color: var(--second-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin: 0 10px;
+}
+
+
+
+.animated-progress {
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid grey;
+    position: relative;
+
+}
+
+
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    line-height: 30px;
+    position: relative;
+    text-align: end;
+    border-radius: 5px;
+    padding-right: 5px;
+    background-color: var(--third-color);
+}
+
+.animated-progress p {
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+}
+
+
+/* SKILLS ENDS  */
+
+/* QUALIFICATION  */
+
+.qualification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.qualification>span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.qualification>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.qualification>.qualification-information {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.education>h2,
+.experience>h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.education .education-information .box,
+.experience .experience-information .box {
+    margin: 30px 0;
+}
+
+/* to design the line and cirlce in the qualification  */
+.education .education-information .box>.line,
+.experience .experience-information .box>.line {
+    width: 3px;
+    height: 90px;
+    background-color: var(--first-color);
+    position: absolute;
+    margin: 2px 6px;
+    border-radius: 5px;
+
+}
+
+.education .education-information .box>.circle,
+.experience .experience-information .box>.circle {
+    height: 15px;
+    width: 15px;
+    background-color: var(--first-color);
+    position: absolute;
+    border-radius: 50%;
+    transition: .5s;
+
+}
+
+.education .education-information .box:hover>.circle::before,
+.experience .experience-information .box:hover>.circle::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    z-index: 5555;
+    transition: .5s;
+
+}
+
+/* to design the line and cirlce in the qualification ends */
+
+
+.education .education-information .box h1,
+.experience .experience-information .box h1 {
+    font-size: 1.2rem;
+    color: var(--second-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.education .education-information .box h2,
+.experience .experience-information .box h2 {
+    font-size: 16px;
+    color: var(--first-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 30px;
+
+
+}
+
+.education .education-information .box p,
+.experience .experience-information .box p {
+    color: var(--second-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+
+/* QUALIFICATION ENDS */
+
+
+/*SERVICES */
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.services span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.services h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services .main-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.services .main-cards .card {
+    width: 350px;
+    height: auto;
+    border: 1px solid rgb(181, 174, 174);
+    margin: 40px 20px;
+    border-radius: 0 30px 0 0;
+    padding: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+.main-cards .card .icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(81, 172, 221);
+    margin-top: -80px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.main-cards .card .icon i {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main-cards .card h4 {
+    margin: 15px 0;
+    color: var(--second-color);
+    text-transform: capitalize;
+}
+
+.main-cards .card p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.services .main-cards .card:hover {
+    background-color: rgb(81, 172, 221);
+    color: #fff !important;
+    border: 1px transparent;
+    transition: .3s;
+}
+
+.services .main-cards .card:hover>.icon {
+    background-color: #fff;
+    color: rgb(81, 172, 221);
+    transition: .3s;
+}
+
+.services .main-cards .card:hover>h4 {
+    color: #fff;
+}
+
+/*SERVICES ENDS */
+
+/* PROJECT  */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--second-color);
+}
+
+.projects span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.projects h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.projects .main-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.projects .main-boxes .box {
+    width: 370px;
+    height: 220px;
+    overflow: hidden !important;
+    margin: 20px;
+    z-index: 55;
+}
+
+.projects .main-boxes .box img {
+    width: 370px;
+    height: 220px;
+    position: absolute;
+}
+
+
+.projects .main-boxes .box .text-overlay {
+    background-color: rgba(81, 172, 221, 0.845);
+    width: 100%;
+    height: 100%;
+    z-index: 55;
+    position: relative;
+    transform: translateY(-220px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box !important;
+
+}
+
+.projects .main-boxes .box:nth-child(2)>.text-overlay {
+    transform: translateY(220px);
+}
+
+.main-boxes .box .text-overlay .text-overlay-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    cursor: pointer;
+}
+
+.main-boxes .box .text-overlay .text-overlay-icon i {
+    color: #222;
+    font-size: 25px;
+}
+
+.main-boxes .box .text-overlay p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.projects .main-boxes .box:hover>.text-overlay {
+    transform: translateY(0);
+    transition: 1s;
+
+}
+
+/* PROJECT ENDS */
+
+
+/* CONTACT  */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact span {
+    color: var(--third-color);
+    font-family: papyrus;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.contact h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact .contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.contact .contact-form form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 650px;
+    margin: 50px;
+}
+
+.contact .contact-form form input {
+    height: 40px;
+    width: 295px;
+    outline: none;
+    border: 2px solid rgb(197, 196, 196);
+    margin: 10px 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact .contact-form form input::placeholder,
+.contact .contact-form form textarea::placeholder {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact .contact-form form #contact-subject {
+    width: 100%;
+}
+
+.contact .contact-form form textarea {
+    width: 100%;
+    height: 90px;
+    margin: 10px 15px;
+    outline: none;
+    border: 2px solid #aaa;
+    overflow: hidden;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.contact .contact-form form input:focus:not(input[type="submit"]),
+.contact .contact-form form textarea:focus {
+    box-shadow: -1px -1px 2px 2px rgba(109, 182, 209, 0.557);
+    border: 2px solid rgba(109, 182, 209, 0.557);
+}
+
+.contact .contact-form form input[type='submit'] {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: var(--first-color);
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.contact .contact-form form input[type='submit']:hover {
+    border: 2px solid var(--first-color);
+    color: #333;
+    background-color: #fff;
+    transition: .5s;
+}
+
+
+
+  /* those classes has been added from js at file sendEmail.js */
+  .color-red,
+  .color-green{
+    color: #fff ;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: var(--third-color);
+    text-align: center;
+    width: 100%;
+    margin: 0px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.color-green{
+    background-color: green;
+}
+/* ENDSS */
+
+
+
+.contact .contact-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.contact .contact-information .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.contact .contact-information .box .icon {
+    height: 60px;
+    width: 60px;
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contact .contact-information .box .icon i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.contact .contact-information .box .box-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contact-information .box .box-text h4 {
+    color: #333;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.contact-information .box .box-text p {
+    font-size: 15px;
+    color: rgb(101, 98, 98);
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+
+
+/* CONTACT ends  */
+
+
+/* RESPONSIVE DESIGN  */
+@media only screen and (max-width:1024px) {
+    .first-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .information {
+        margin-top: 150px;
+    }
+
+    .background-image .bg-img {
+        margin-top: 0;
+    }
+
+    .about>.about-information {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .social-media {
+        display: none;
+    }
+
+    .about>.about-information {
+        width: 90%;
+        margin: 0 10px;
+    }
+
+    .contact .contact-form form {
+        width: 90%;
+    }
+
+    .contact .contact-form form input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .background-image .bg-img,
+    .about-img img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .information {
+        width: 95%;
+        margin-right: 40px;
+    }
+
+   
+
+    .myInterests {
+        margin: 30px 0;
+    }
+
+    .skills .technichal-skills,
+    .skills .soft-skills {
+        width: 100%;
+    }
+
+    .animated-progress {
+        width: 90%;
+    }
+
+    .services .main-cards .card {
+        width: 90%;
+    }
+
+    .projects .main-boxes .box {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .projects .main-boxes .box img {
+        width: 90%;
+    }
+
+    .contact .contact-form form {
+        width: 80%;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .contact .contact-information {
+        width: auto;
+        margin: 40px 0;
+
+    }
+
+    .contact .contact-information .box {
+        margin: 10px;
+    }
+
+    .contact .contact-information .box .icon {
+        height: 50px;
+        width: 43px;
+    }
+
+    .contact .contact-information .box .icon i {
+        font-size: 20px;
+    }
+
+}
